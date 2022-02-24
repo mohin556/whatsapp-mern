@@ -3,7 +3,9 @@ import DonutLargeIcon from '@mui/icons-material/DonutLarge';
 import './Sidebar.css'
 import { Avatar, IconButton } from '@mui/material';
 import ChatIcon from '@mui/icons-material/Chat';
+import SearchIcon from '@mui/icons-material/Search';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import SidebarChat from '../SidebarChat/SidebarChat';
 const Sidebar = () => {
     return (
         <div className='sidebar'>
@@ -21,7 +23,31 @@ const Sidebar = () => {
               </IconButton>
               
             </div>
+
           </div>
+
+           
+           <div className='sidebar-search'>
+               
+               <div className="sidebar-searchContainer">
+
+                  <SearchIcon />
+                  <input type="text" placeholder='Search or text here' />
+
+
+               </div>
+
+
+
+           </div>
+           <div className="sidebar-chat">
+               <SidebarChat/>
+               <SidebarChat/>
+               <SidebarChat/>
+           </div>
+
+
+
         </div>
     );
 };

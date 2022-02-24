@@ -20,3 +20,36 @@
  margin-right: 2vw;
  font-size: 24px !important;
 }
+.sidebar-search{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 39px;
+    background-color: #f6f6f6;
+}
+.sidebar-searchContainer{
+    display: flex;
+    height: 32px;
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.sidebar-searchContainer > .MuiSvgIcon-root{
+  color: gray;
+  padding: 10px;
+  
+}
+.sidebar-searchContainer > input{
+    border: none;
+    outline-width: 0;
+    margin-left: 10px;
+
+}
+.sidebar-chat{
+    flex: 1;
+    background-color: white;
+    overflow: scroll;
+}
+
