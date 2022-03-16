@@ -6,7 +6,7 @@ const SidebarChat = () => {
         <div className='SidebarChat'>
             <Avatar />
            <div className="sidebarChat-info">
-           <h2>NUmber </h2>
+           <h2>Room name  </h2>
             <h3>Perfect</h3>
            </div>
         </div>
